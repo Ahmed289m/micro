@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microweb</title>
+    <!--Start External Links-->
+    <script src="https://kit.fontawesome.com/3533e34ddb.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="logo-website.png" src="logo-website.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+
+    <!--end External Links-->
+
+</head>
+<body>
+    <!--Start Navbar-->
+    <nav class="navbar navbar-expand justify-content-between container">
+       
+        <i style="margin-top: -10px;" class="navbar-brand"><img src="logo-website.png" alt="" width="110px"></i>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item"><a id="nav1" style="font-size: 21px;margin-right: 40px;" class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a id="nav2" style="font-size: 21px;margin-right: 40px;" class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a id="nav3" style="font-size: 21px;margin-right: 40px;" class="nav-link" onclick="about()">About</a></li>
+            <li class="nav-item"><a id="nav4" style="font-size: 21px;margin-right: 40px;" class="nav-link" onclick=" contact()">Contact Us</a></li>
+            <div class="menu" id='menu'>
+                <div id="top"></div>
+                <div id="middle"></div>
+                <div id="bottom"></div>
+              </div>
+
+        </ul>
+       
+    </nav>
+
+    <!--Start Navbar (Mobile)-->
+
+    <nav id='navbar'>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a  onclick="about()">About</a>
+        <a onclick=" contact()">Contact Us</a>
+      </nav>
+
+
+    <!--End Navbar (Mobile)-->
+
+
+    <!--end Navbar-->
+
+    <!--Start Loading-->
+    <div class="loading">
+        <span id="one2">M</span>
+        <span id="two2">i</span>
+        <span id="three2">c</span>
+        <span id="four2">r</span>
+        <span id="five">o</span>
+        <span id="six">w</span>
+        <span id="seven">e</span>
+        <span id="eight">b</span>
+    
+    </div>
+    <!--End Loading-->
+
+
+    <!--Start Landing Section-->
+<div>
+    <!--Start Welcome Section-->
+    <section class="W-Section">
+        <div id="bg">
+
+        </div>
+        <div class="row">
+            <div class="col-12 col-md-9 col-lg-8 col-xl-6">
+                <h1>Micro<span style="color: #2675c0;">web</span></h1>
+                <h3>Your Services Is Here , Your Dream Is Here</h3>
+                <div class="row mt-5">
+                <button id="W-btn-left" onclick=" contact()" class="get-btn col-5 col-md-4">Get In Touch</button>
+                <button onclick="ourS()" id="W-btn-right" class="serv-btn col-5 col-md-4">Our Services</button>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!--End Welcome Section-->
+
+    <!--Start About Section-->
+    <section class="about-us">
+        <div class="row justify-content-center align-items-center">
+            <img id="about-img" class="col-10 mb-4 col-md-6" src="ReduceImageSize_to_50kb_28789.jpg" alt="">
+            <div id="about-text" class="col-8 col-md-5">
+                <h1>About Us</h1>
+                <h4><span style="color: #2675c0;">Microweb</span> is a software company established in 2021 by its director Ahmed Salama, with the presence of a team specialized in software development, with us your dream will come true</h4>
+                <button onclick=" contact()" class="get-btn-about">Get In Touch</button>
+            </div>
+        </div>
+
+    </section>
+    <!--End About Section-->
+    <!--Start Services Section-->
+    <section class="S-section">
+        <h1>Our Services</h1>
+        <div class="row justify-content-center"  >
+            <div id="serv-1" class="S-1 col-5"><i class="over"></i><p>Create Introductory Websites For Companies And Organizations</p></div>
+            <div id="serv-2"  class="S-2 col-5"><i class="over"></i><p>Create Website Interface Design</p></div>
+            <div id="serv-3"  class="S-3 col-5"><i class="over"></i><p>Create A Personal Portfolio Website</p></div>
+            <div id="serv-4"  class="S-4 col-5"><i class="over"></i><p>Create Online Stores</p></div>
+        </div>
+    </section>
+    <!--End Services Section-->
+
+    <!--Start Rates Section-->
+    <section class="R-Section">
+        <h1>What Our Clients Saying About Us</h1>
+        <div style="flex-wrap: wrap-reverse;" class="row justify-content-center">
+            <div class="R-text rate2 Active slide col-10 col-lg-8 col-xxl-8">
+                <div class="rate">"I Was Suffering To Create a Website For My Company Since I Couldn't Afford A Regular Website With My Tight Budget,But It Was Then When I Discovered Microweb" </div>
+                <div class="client-details">
+                    <div class="C-image">
+                        <img src="user-icon (1).png" alt="" width="60px">
+                       
+                    </div>
+                    <span class="C-name">
+                        <p>Ahmed Hawary
+                            
+                        <span>Company's Director</span>
+
+
+                        </p>
+                    </span>
+                    
+                </div>
+            </div>
+
+
+
+            <div class="R-Image col-6 mb-5 col-lg-3 col-xxl-2">
+                <div class="row justify-content-center">
+                <p class="col-11">Want To Estimate Your Project?</p>
+                <button onclick="ourS()" class="col-8">Our Services</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--End Rates Section-->
+
+</div>
+    <!--End Landing Section-->
+<!--Start Footer-->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>Egypt</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>+201011987886</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>micro.0web0@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="logo-removebg-preview.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Microweb is a software company established in 2021 by its director Ahmed Salama, with the presence of a team specialized in software development, with us your dream will come true</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="https://www.facebook.com/Khadamati289"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="https://twitter.com/microweb7"><i class="fab fa-twitter twitter-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2022, All Right Reserved <a href="index.html">Microweb</a></p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End Footer-->
+
+<script src="index.js"></script>
+</body>
+</html>

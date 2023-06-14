@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microweb</title>
+    <!--Start External Links-->
+    <script src="https://kit.fontawesome.com/3533e34ddb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css" integrity="sha384-X8QTME3FCg1DLb58++lPvsjbQoCT9bp3MsUU3grbIny/3ZwUJkRNO8NPW6zqzuW9" crossorigin="anonymous">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="logo-website.png" src="logo-website.png">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="all.min.css">
+    <!--end External Links-->
+
+</head>
+<body>
+    <!--Start Navbar-->
+    <nav class="navbar navbar-expand justify-content-between container">
+       
+        <i style="margin-top: -10px;" class="navbar-brand"><img src="logo-website.png" alt="" width="110px"></i>
+        
+        <ul class="navbar-nav">
+            <li class="nav-item"><a id="nav1" style="font-size: 21px;margin-right: 40px;" class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a id="nav2" style="font-size: 21px;margin-right: 40px;" class="nav-link" href="services.html">Services</a></li>
+            <li class="nav-item"><a id="nav4" style="font-size: 21px;margin-right: 40px;" class="nav-link" onclick="contact2()">Contact Us</a></li>
+            <div class="menu" id='menu'>
+                <div id="top"></div>
+                <div id="middle"></div>
+                <div id="bottom"></div>
+              </div>
+
+        </ul>
+       
+    </nav>
+
+    <!--Start Navbar (Mobile)-->
+
+    <nav id='navbar'>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a onclick="contact2()">Contact Us</a>
+      </nav>
+
+
+    <!--End Navbar (Mobile)-->
+
+
+    <!--end Navbar-->
+<!--Start Services-->
+<div style="--bs-gutter-x: 0rem;" class="row justify-content-center mb-5 serv-all" >
+    <h1 class="page-title">Our Services</h1>
+<div class="col-10 col-md-5 SP-1">
+    <div class="img-serv" onclick="oneS()"></div>
+    <div class="row justify-content-between align-items-center style="--bs-gutter-x: 0rem;">
+        <div class="col-9">
+    <p class="serv-title" onclick="oneS()">Create Website Interface Design</p>
+    <p style="margin-top: -10px;color: #AEAEAE;">Website Development</p>
+</div>
+<i style="cursor:pointer" onclick="oneS()" id="to-details next-serv1" class="fa-solid fa-arrow-right col-1"></i>
+
+</div>
+</div>
+
+<div class="col-10 col-md-5 SP-2">
+    <div class="img2-serv" onclick="twoS()"></div>
+    <div class="row justify-content-between align-items-center" style="--bs-gutter-x: 0rem;">
+        <div class="col-9">
+    <p class="serv-title" onclick="twoS()">Create A Personal Portfolio Website</p>
+    <p style="margin-top: -10px;color: #AEAEAE;">Website Development</p>
+</div>
+<i onclick="twoS()" style="cursor:pointer" id="to-details next-serv2" class="fa-solid fa-arrow-right col-1"></i>
+
+</div>
+</div>
+
+<div class="col-10 col-md-5 SP-3">
+    <div class="img3-serv" onclick="threeS()"></div>
+    <div class="row justify-content-between align-items-center" style="--bs-gutter-x: 0rem;">
+        <div class="col-9">
+    <p class="serv-title" onclick="threeS()">Create Online Stores</p>
+    <p style="margin-top: -10px;color: #AEAEAE;">Website Development</p>
+</div>
+<i onclick="threeS()" style="cursor:pointer" id="to-details next-serv3" class="fa-solid fa-arrow-right col-1"></i>
+
+</div>
+</div>
+
+<div class="col-10 col-md-5 SP-4">
+    <div class="img4-serv" onclick="fourS()"></div>
+    <div class="row justify-content-between align-items-center" style="--bs-gutter-x: 0rem;">
+        <div class="col-10">
+    <p class="serv-title" onclick="fourS()">Create Introductory Websites For Companies And Organizations</p>
+    <p style="margin-top: -10px;color: #AEAEAE;">Website Development</p>
+</div>
+<i onclick="fourS()" style="cursor:pointer" id="to-details next-serv4" class="fa-solid fa-arrow-right col-1"></i>
+
+</div>
+</div>
+
+</div>
+<!--End Services-->
+
+
+ 
+<!--Start Footer-->
+<footer class="footer-section">
+    <div class="container">
+        <div class="footer-cta pt-5 pb-5">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find us</h4>
+                            <span>Egypt</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call us</h4>
+                            <span>+201011987886</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail us</h4>
+                            <span>micro.0web0@gmail.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-content pt-5 pb-5">
+            <div class="row justify-content-center">
+                <div class="col-xl-4 col-lg-4 mb-50">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="logo-removebg-preview.png" class="img-fluid" alt="logo"></a>
+                        </div>
+                        <div class="footer-text">
+                            <p>Microweb is a software company established in 2021 by its director Ahmed Salama, with the presence of a team specialized in software development, with us your dream will come true</p>
+                        </div>
+                        <div class="footer-social-icon">
+                            <span>Follow us</span>
+                            <a href="https://www.facebook.com/Khadamati289"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                            <a href="https://twitter.com/microweb7"><i class="fab fa-twitter twitter-bg"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                    <div class="copyright-text">
+                        <p>Copyright &copy; 2022, All Right Reserved <a href="index.html">Microweb</a></p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+</footer>
+<!--End Footer-->
+<script src="ser.js"></script>
+</body>
+</html>

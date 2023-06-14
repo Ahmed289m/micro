@@ -1,0 +1,170 @@
+.img-serv{
+    background-image: url(mailchimp-Hv9CS6KZayQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.serv-title{
+    font-size: 22px;
+    margin-top: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.img4-serv{
+    background-image: url(artist-room-decorated_23-2148834386.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.img3-serv{
+    background-image: url(rupixen-com-Q59HmzK38eQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.img2-serv{
+    background-image: url(nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+@media (min-width:768px) {
+ 
+    .SP-1{
+        margin-right: 15px;
+    }
+    .SP-3{
+        margin-right: 15px;
+    }
+}
+
+.row{
+    --bs-gutter-x: 0rem !important;
+}
+
+
+#to-details{
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.page-title{
+    color: black;
+    text-decoration: line-through #2675c0;
+    text-decoration-thickness: 3px ;
+    font-weight: 600;
+    margin-bottom: 60px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.img-each-serv1{
+    background-image: url(mailchimp-Hv9CS6KZayQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.img-each-serv2{
+    background-image: url(nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.img-each-serv3{
+    background-image: url(rupixen-com-Q59HmzK38eQ-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.img-each-serv4{
+    background-image: url(artist-room-decorated_23-2148834386.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.serv-all{
+    opacity: 0;
+    transform: translateY(80px);
+    transition-duration: 1s;
+}
+.each-serv{
+margin-bottom: 100px;    
+   opacity: 0;
+   transform: translateY(80px);
+   transition-duration: 1s;
+}
+
+.serv-details{
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.serv-details > h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.serv-details>ul>li{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.serv-details>ul{
+    padding-left: 40px;
+}
+
+.price{
+    color: #2675c0;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.serv-details>div>button{
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    background-color: #2675c0;
+    border: 0px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.each-serv > div >i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
